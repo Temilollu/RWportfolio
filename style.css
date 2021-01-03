@@ -1,0 +1,505 @@
+* {
+  box-sizing: border-box;
+}
+
+.univ {
+  padding: 1rem 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F2F4F7;
+}
+
+p, h4 {
+  margin: 0.5rem 0 0;
+}
+
+button {
+  padding: 0.6rem 0;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about {
+  color: #E43A19;
+}
+.about .line {
+  vertical-align: middle;
+}
+
+header {
+  display: block;
+}
+header .mobile_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .mobile_header .hamburger {
+  height: 24px;
+  cursor: pointer;
+}
+header .mobile_header .x-icon {
+  height: 15px;
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+header nav p {
+  font-size: 24px;
+  line-height: 28px;
+  color: #111F4D;
+  margin: 0.7rem 0;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+header nav p:hover {
+  color: #E43A19;
+}
+header nav button.contact {
+  color: #E43A19;
+  background-color: inherit;
+  border: 1px solid #E43A19;
+}
+header nav button.hire {
+  background-color: #E43A19;
+  color: white;
+}
+
+main {
+  color: white;
+  background-color: #111F4D;
+}
+main button {
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #E43A19;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+main .contact, main img {
+  display: none;
+}
+
+.stacks {
+  display: flex;
+  flex-direction: column;
+}
+.stacks > * {
+  margin: 1rem 0;
+}
+.stacks .stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F2F4F7;
+  box-shadow: 1px 2px 9px rgba(55, 20, 153, 0.1);
+  border-radius: 8px;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.about-me .dp {
+  width: 100%;
+}
+.about-me .line {
+  vertical-align: middle;
+}
+.about-me div h3 {
+  color: #111F4D;
+  margin: 0.5rem 0;
+}
+.about-me div .about {
+  color: #E43A19;
+  font-size: 16px;
+}
+.about-me div p {
+  font-size: 15px;
+  color: #111F4D;
+  line-height: 24px;
+}
+
+progress {
+  background-color: black;
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgba(255, 255, 255, 0.679);
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+}
+
+progress::-webkit-progress-value {
+  background-color: #E43A19;
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+}
+
+progress::-moz-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+}
+
+.skills .first .about {
+  color: #E43A19;
+}
+.skills .first .about .line {
+  vertical-align: middle;
+}
+.skills .first h3 {
+  color: #111F4D;
+}
+.skills .first p {
+  color: #111F4D;
+}
+.skills .second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills .second .card {
+  background: #F2F4F7;
+  box-shadow: 1px 2px 4px rgba(25, 61, 115, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  width: 70%;
+  padding: 0.5rem 0;
+  margin: 1.5rem 0;
+  color: #111F4D;
+}
+
+.portfolio .about img {
+  vertical-align: middle;
+}
+.portfolio .content {
+  color: #111F4D;
+}
+.portfolio .latest {
+  color: #111F4D;
+}
+.portfolio .container img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.available {
+  text-align: center;
+  color: white;
+  background: #111F4D;
+}
+.available p {
+  color: #F2F4F7;
+  margin-bottom: 1rem;
+}
+.available button {
+  background-color: #E43A19;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.testimonials h4 {
+  margin: 0.4rem 0;
+  color: #111F4D;
+}
+.testimonials p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #111F4D;
+}
+.testimonials .testimonies .testimony {
+  background: #111F4D;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  position: relative;
+}
+.testimonials .testimonies .testimony span {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #E43A19;
+  position: absolute;
+  right: 94%;
+}
+.testimonials .testimonies .testimony .close_quotes {
+  position: absolute;
+  right: 28%;
+  top: 65%;
+}
+.testimonials .testimonies .testimony p, .testimonials .testimonies .testimony h4 {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.contact-us .content {
+  margin: 1rem 0;
+  color: #111F4D;
+}
+.contact-us form {
+  margin: 1rem 0;
+}
+.contact-us form > *::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+.contact-us form input, .contact-us form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  height: 44px;
+  background-color: inherit;
+  border-style: none;
+  border: 1px solid #ADADAD;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 1rem;
+}
+.contact-us form textarea {
+  height: 100px;
+  padding-top: 0.5rem;
+}
+.contact-us form button {
+  background-color: #E43A19;
+  color: white;
+  padding: 0.5rem 1rem;
+  float: right;
+}
+
+footer {
+  background: #111F4D;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .univ {
+    padding: 1rem 8rem;
+  }
+
+  .about {
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    left: 7%;
+    top: 2%;
+    color: #E43A19;
+  }
+
+  .available {
+    padding: 3rem 8rem;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+  }
+  header nav {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 60%;
+  }
+  header nav p {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  header nav button {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  header .mobile_header {
+    width: 40%;
+  }
+  header .mobile_header .hamburger {
+    display: none !important;
+  }
+
+  main {
+    padding-right: 0 !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .text-container {
+    width: 47%;
+    align-self: center;
+  }
+  main .text-container > * {
+    margin: 0.5rem 0;
+  }
+  main .contact {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main img {
+    display: block;
+    width: 30%;
+  }
+
+  .stacks {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .stacks .stack {
+    width: 30%;
+  }
+
+  .about-me {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-me .dp {
+    width: 40%;
+  }
+  .about-me div {
+    align-self: center;
+    width: 40%;
+    position: relative;
+  }
+  .about-me div .about {
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    left: -30px;
+    top: -12%;
+    color: #E43A19;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  .skills .first {
+    width: 40%;
+    position: relative;
+  }
+  .skills .first .about {
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    left: -30px;
+    top: 2%;
+  }
+  .skills .second {
+    align-self: center;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .skills .second .card {
+    width: 42%;
+    margin: 0 0 0 1.4rem;
+  }
+  .skills .second > :nth-child(2), .skills .second > :nth-child(4) {
+    margin-top: 1.4rem;
+  }
+
+  .portfolio {
+    position: relative;
+  }
+  .portfolio .about {
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    left: 7%;
+    top: 2%;
+    color: #E43A19;
+  }
+  .portfolio .content {
+    width: 50%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .portfolio .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  .portfolio .container .items {
+    width: 33%;
+  }
+  .portfolio .container img {
+    width: 90%;
+  }
+
+  .testimonials {
+    position: relative;
+  }
+  .testimonials .about {
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    left: 7%;
+    top: 2%;
+    color: #E43A19;
+  }
+  .testimonials .content {
+    width: 50%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .testimonials .testimonies {
+    display: flex;
+    justify-content: space-between;
+  }
+  .testimonials .testimonies .testimony {
+    width: 45%;
+    padding: 3rem 1rem;
+  }
+  .testimonials .testimonies .testimony span {
+    right: 96%;
+  }
+  .testimonials .testimonies .testimony .close_quotes {
+    right: 2%;
+    top: 50%;
+  }
+
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .contact-us div {
+    width: 40%;
+  }
+  .contact-us form {
+    width: 45%;
+  }
+
+  .x-icon {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
